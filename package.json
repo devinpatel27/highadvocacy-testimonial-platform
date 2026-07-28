@@ -1,0 +1,12 @@
+{
+  "name": "highadvocacy-testimonial-platform",
+  "private": true,
+  "scripts": {
+    "install:all": "pnpm --dir server install && pnpm --dir client install",
+    "dev": "pnpm --dir server dev",
+    "dev:server": "pnpm --dir server dev",
+    "dev:client": "pnpm --dir client dev",
+    "build": "pnpm --dir client build",
+    "start": "pnpm --dir server start"
+  }
+}

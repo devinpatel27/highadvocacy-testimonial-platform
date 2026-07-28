@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HighAdvocacy Widget Demo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 48px 20px;
+        background: #f8fafc;
+        color: #0f172a;
+        font-family: Inter, Arial, sans-serif;
+      }
+      main { max-width: 980px; margin: 0 auto; }
+      h1 { margin: 0 0 10px; font-size: 42px; letter-spacing: 0; }
+      p { color: #475569; line-height: 1.6; }
+      .demo-shell { margin-top: 28px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Third-party website demo</h1>
+      <p>This page simulates a business website outside the React app. The testimonials below are loaded by the embed script.</p>
+      <div class="demo-shell" id="highadvocacy-wall"></div>
+      <script src="http://localhost:4000/embed.js" data-accent="#0f766e" data-mount="highadvocacy-wall"></script>
+    </main>
+  </body>
+</html>
